@@ -62,7 +62,7 @@ Or with yarn:
 
 yarn start
 
-The application will be accessible at http://localhost:3000/.
+The application will be accessible at http://localhost:5173/
 
 DEPLOYMENT
 
