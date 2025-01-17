@@ -12,7 +12,7 @@ const DailyWeather = ({ forecast }) => {
         {dailyData.map((day) => (
           <div
             key={day.dt}
-            className="day bg-blue-50 p-4 text-center rounded-md shadow-md"
+            className="day bg-blue-600 p-4 text-center rounded-md shadow-md"
           >
             <p>{new Date(day.dt * 1000).toLocaleDateString()}</p>
             <img
